@@ -11,6 +11,7 @@
 
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:400,400i,600,600i,700,700i|Playfair+Display:400,400i,700,700i&display=swap");
 @import url("https://fonts.googleapis.com/icon?family=Material+Icons");
+
 html,
 body {
 	height: 100%;
@@ -299,12 +300,14 @@ ol {
 		border: 4px solid #f44336;
 		border-left-color: transparent;
 	}
+
 	50% {
 		-webkit-transform: rotate(180deg);
 		transform: rotate(180deg);
 		border: 4px solid #673ab7;
 		border-left-color: transparent;
 	}
+
 	100% {
 		-webkit-transform: rotate(360deg);
 		transform: rotate(360deg);
@@ -1795,6 +1798,7 @@ only screen and (min-width: 1200px) and (max-width: 1440px),
 only screen and (min-width: 768px) and (max-width: 991px),
 only screen and (min-width: 576px) and (max-width: 767px),
 (max-width: 576px) {
+
 	.trainer-slider .owl-nav .owl-prev,
 	.trainer-slider .owl-nav .owl-next {
 		position: relative;
@@ -2344,7 +2348,7 @@ only screen and (min-width: 576px) and (max-width: 767px),
 .pricing-item ul {
 	list-style: none;
 	margin-bottom: 20px;
-	
+
 }
 
 .pricing-item ul li {
@@ -3614,7 +3618,7 @@ only screen and (min-width: 992px) and (max-width: 1200px),
 	width: 5px;
 	height: 5px;
 	left: 0;
-	top: calc( 50% - 2px);
+	top: calc(50% - 2px);
 	border-radius: 20px;
 	background: #f65d5d;
 }
@@ -4242,3 +4246,43 @@ only screen and (min-width: 576px) and (max-width: 767px),
 /* Other */
 
 
+/* slecle */
+
+.select {
+	width: 100%;
+	height: 44px;
+	border: 1px solid #ebebeb;
+	margin-bottom: 20px;
+	padding-left: 20px;
+	border-radius: 41px;
+	font-size: 16px;
+	color: #555;
+	background-color: #fff;
+}
+
+/* Style for select menu options */
+.select option {
+	font-size: 16px;
+	color: #555;
+}
+
+label {
+    font-size: 16px; /* Adjust font size as needed */
+    color: #555; /* Adjust color as needed */
+    display: block; /* Ensure the label takes up the full width */
+    margin-bottom: 10px; /* Space below the label */
+    font-weight: 500; /* Adjust font weight as needed */
+}
+
+label span.wpcf7-form-control-wrap {
+    display: block; /* Ensure the date input is on a new line */
+    margin-top: 5px; /* Space above the date input */
+}
+
+label span.wpcf7-form-control-wrap input {
+    width: 100%; /* Make the date input full width */
+    padding: 10px; /* Add padding for better user experience */
+    border: 1px solid #ebebeb; /* Border color */
+    border-radius: 41px; /* Rounded corners */
+    font-size: 16px; /* Adjust font size as needed */
+}
